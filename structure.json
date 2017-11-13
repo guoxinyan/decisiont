@@ -11,10 +11,10 @@
           "name": "Total number of bills > 5",
           "children": [
             {
-              "name": "Decline"
+              "name": "Accept"
             },
             {
-              "name": "Accept"
+              "name": "Decline"
             }
           ]
         }
@@ -24,10 +24,10 @@
       "name": "Historical claim amount anomalous", 
       "children": [
         {
-          "name": "Accept"
+          "name": "Decline"
         },
         {
-          "name": "Decline"
+          "name": "Accept"
         }
       ]
     }

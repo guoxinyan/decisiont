@@ -1,35 +1,35 @@
 {
-  "name": "Total Deductible Amount > SGD2500",
+  "name": "Total deductable amount > SGD2,500",
   "children": [
     {
-      "name": "TABSHELLLOEST petal width (cm) > 1.75",
+      "name": "Total sum of bills within period > SGD5,000",
       "children": [
         {
-          "name": "TEST TEST petal length (cm) > 4.85000038147",
-          "children": [
-            {
-              "name": "0 of setosa, 0 of versicolor, 43 of virginica"
-            },
-            {
-              "name": "0 of setosa, 1 of versicolor, 2 of virginica"
-            }
-          ]
+          "name": "Decline"
         },
         {
-          "name": "petal length (cm) > 4.94999980927",
+          "name": "Total number of bills > 5",
           "children": [
             {
-              "name": "0 of setosa, 2 of versicolor, 4 of virginica"
+              "name":"Decline"
             },
             {
-              "name": "0 of setosa, 47 of versicolor, 1 of virginica"
+              "name": "Accept"
             }
           ]
         }
       ]
     },
     {
-      "name": "50 of setosa, 0 of versicolor, 0 of virginica"
+      "name": "Historical claim amount anomalous", 
+      "children": [
+        {
+          "name": "Accept"
+        },
+        {
+          "name" "Decline"
+        }
+      ]
     }
   ]
 }
